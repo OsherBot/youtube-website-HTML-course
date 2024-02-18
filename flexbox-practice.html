@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+    flexbox practice
+  </title>
+  <style>
+    .row-2 {
+      background-color: black;
+      color: white;
+    }
+  </style>
+ </head>
+ <body style="padding-bottom: 1000px;">
+<div style="
+display: flex;
+margin-bottom: 40px;
+">
+  <div style="background-color: lightblue;
+  width: 200px;
+  ">
+200px
+  </div>
+  <div style="background-color:lightpink;
+  width: 75px;
+  ">
+75px
+  </div>
+</div>
+
+<div style="
+display: flex;
+">
+    <div style="background-color: lightblue;
+    width: 50px;
+    ">
+  item1
+    </div>
+    <div style="background-color:lightpink;
+    flex: 1;
+    ">
+  item2
+    </div>
+    <div style="background-color: lightblue;
+    width: 75px;
+    ">
+  item3
+    </div>
+</div>
+
+<div style="
+display: flex;
+margin-top: 40px;
+margin-bottom: 40px;
+justify-content: space-between;
+">
+    <div style="background-color:lightpink;
+    ">
+  item1
+    </div>
+    <div style="background-color:lightpink;
+    ">
+  item2
+    </div>
+    <div style="background-color:lightpink;
+    ">
+  item3
+    </div>
+    <div style="background-color:lightpink;
+    ">
+  item4
+    </div>
+</div>
+
+
+<div style="
+height: 50px;
+border-width: 1px;
+border-style: solid;
+border-color: gray;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+">
+    <div style="background-color:lightpink;
+    ">
+  item1
+    </div>
+    <div style="background-color:lightpink;
+    ">
+  item2
+    </div>
+</div>
+
+<div style="display: flex;
+margin-bottom:40px ;">
+  <div style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+    width: 100px;
+    "> 
+    <p style="
+    background-color: black;
+    color: white;
+    ">
+item1
+    </p>
+  </div>
+  <div style="background-color: lightblue;
+  width: 200px;">
+
+  </div>
+</div>
+
+
+<div style="display: flex;
+flex-direction: row;
+">
+<div style="background-color: lightpink;
+width: 100px;
+">
+</div>
+<div style="display: flex; 
+flex-direction: column;
+background-color: lightblue;
+width: 200px;
+justify-content:center;
+">
+<div>row1</div>
+    <div style="display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ">
+      <div class="row-2">row2</div>
+      <div class="row-2">row2</div>
+    </div>
+  </div>
+</div>
+
+ </body>
+</html>

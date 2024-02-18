@@ -1,0 +1,33 @@
+div {
+  text-align: center;
+}
+
+
+
+.google-logo {
+  width: 200px;
+}
+
+
+
+.shadow-box {
+  font-size: 15px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 120px;
+  border: none;
+  box-shadow:2px 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius:10px ; 
+  margin-bottom: 30px;
+}
+
+.buttons {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  margin-left: 8px;
+}

@@ -1,0 +1,85 @@
+.first-name,.second-name {
+  font-size: 13px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: rgb(154, 154, 201);
+}
+
+.email-box {
+ margin-top: 10px;
+ margin-bottom:10px ;
+  display: block;
+  width: 225px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: rgb(154, 154, 201);
+  
+}
+
+.sign-button {
+ background-color: rgb(65, 65, 255);
+ color: white;
+  border: none;
+  border-radius: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.Request-text {
+  font-size: 30px;
+}
+
+.location-box {
+  display: block;
+  margin-top: 8px;
+  border: none;
+  background-color: rgb(237, 237, 237);
+  width: 250px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.Request-button {
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  vertical-align: middle;
+  font-size: 12px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Schedule-button {
+  background-color: rgb(237, 237, 237);
+  color: black;
+  margin-top: 30px;
+  vertical-align: middle;
+  font-size: 12px;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
